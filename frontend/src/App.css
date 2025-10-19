@@ -1,0 +1,54 @@
+body {
+	background-color: #282c34;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+.App-header {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	text-align: center;
+}
+.card {
+	background: #f4f4f4;
+	padding: 30px 50px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-top: 20px;
+}
+.temp {
+	font-size: 72px;
+	color: #333;
+	font-weight: bold;
+}
+.unit {
+	font-size: 24px;
+	color: #777;
+	vertical-align: super;
+	margin-left: 5px;
+}
+.label {
+	font-size: 20px;
+	color: #555;
+	margin-bottom: 10px;
+}
+.offset {
+	font-size: 16px;
+	color: #888;
+	margin-top: 15px;
+}
+.timestamp {
+	font-size: 14px;
+	color: #777;
+	margin-top: 15px;
+	font-style: italic;
+}
+.log-count {
+	margin-top: 20px;
+	font-size: 16px;
+	color: #aaa;
+}

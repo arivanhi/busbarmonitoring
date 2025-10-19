@@ -1,0 +1,14 @@
+# Dependencies
+# Abaikan SEMUA folder node_modules di mana pun
+**/node_modules
+
+# Generated Log File
+# Abaikan file data.json yang dibuat oleh server
+/backend/data.json
+
+# React production build folder
+/frontend/build
+
+# OS generated files
+.DS_Store
+*.pem
