@@ -30,7 +30,7 @@ Berikut adalah langkah-langkah untuk menjalankan proyek ini di komputer baru set
 Buka terminal dan kloning repositori ini:
 
 ```bash
-git clone [https://github.com/USERNAME/REPO-ANDA.git](https://github.com/USERNAME/REPO-ANDA.git)
+git clone https://github.com/arivanhi/busbarmonitoring.git
 cd busbarmonitoring
 ```
 
@@ -39,13 +39,25 @@ cd busbarmonitoring
 Pastikan berada di folder busbarmonitoring
 
 1. Install dependencies untuk root (concurrently)
+
+```bash
    npm install
+```
 
 2. Install dependencies untuk backend (Express, dll)
+
+```bash
    npm install --prefix backend
+```
 
 3. Install dependencies untuk frontend (React, dll)
+
+```bash
    npm install --prefix frontend
+```
 
 4. jalankan server
+
+```bash
    npm run dev
+```
