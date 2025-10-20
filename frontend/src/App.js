@@ -44,7 +44,7 @@ function App() {
 		<div className="App-header">
 			<h1>Busbar Monitor</h1>
 			<div className="card">
-				<div className="label">Suhu Objek (Real-time)</div>
+				<div className="label">Suhu Objek</div>
 				<span className="temp">{sensorData.temperature.toFixed(1)}</span>
 				<span className="unit">&deg;C</span>
 				<div className="offset">(Offset: {sensorData.offset.toFixed(1)})</div>
