@@ -10,7 +10,7 @@ Proyek ini adalah sistem pemantauan suhu _full-stack_ yang menggunakan ESP32 unt
   2.  Menyimpan data dengan _timestamp_ ke file `data.json`.
   3.  Menyajikan data ke _frontend_ di _endpoint_ `/api/getdata`.
 - **Frontend** (`/frontend`): Aplikasi React yang:
-  1.  Mengambil data dari `/api/getdata` _backend_ setiap 2 detik.
+  1.  Mengambil data dari `/api/getdata` _backend_.
   2.  Menampilkan suhu, offset, dan total log terbaru.
 
 ---
